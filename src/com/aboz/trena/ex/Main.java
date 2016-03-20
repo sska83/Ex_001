@@ -5,11 +5,12 @@ public class Main {
     public static void main(String[] args) {
                 // переменные
                 int a = 10; //
-                int b = 0; //
+                int b = 1; //
 
                 // обработка исключений
                 try {
                     int c = a / b; //на 0 не делится
+                    System.out.println(c);
                 }
                 catch (ArithmeticException ex){
                     System.out.println("не делится на ноль");
