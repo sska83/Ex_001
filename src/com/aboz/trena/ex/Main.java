@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
                 // переменные
                 int a = 10; //
-                int b = 1; //
+                int b = 0; //
 
                 // обработка исключений
                 try {
